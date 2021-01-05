@@ -1,0 +1,8 @@
+Class name: EmptyStackException
+Parent class: Exception
+Subclasses: None
+
+Responsibilities:
+* creates exception when there's an attempt to pop from an empty stack
+
+Collaborators: None

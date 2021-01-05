@@ -1,0 +1,9 @@
+Class name: InvalidPathException
+Parent class: Exception
+Subclasses: None
+
+Responsibilities:
+* generates exception and creates error message when user inputs a path that does refer to an 
+existing directory or file
+
+Collaborators: None

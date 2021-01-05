@@ -1,0 +1,16 @@
+Class name: ConcatenationClass
+Parent class: Command
+Subclasses: None
+
+Responsibilities:
+* Receive one or multiple pathnames (absolute or relative) and output the content of the file(s)  
+  with 3 line breaks in between each file
+
+Collaborators:
+* ValidationGate
+* InvalidArgumentException
+* InvalidPathException
+* Output
+* File
+* JFileSystem
+* InputProcessor

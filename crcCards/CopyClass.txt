@@ -1,0 +1,16 @@
+Class name: CopyClass
+Parent class: Command
+Subclasses: MoveClass
+
+Responsibilities:
+* Copy a file or a directory to a specified location
+* File/directory will be copied into a directory if the specified location is an existing directory
+
+Collaborators:
+* JFileSystem
+* File
+* Directory
+* ValidationGate
+* Output
+* InvalidArgumentException
+* InvalidPathException

@@ -1,0 +1,14 @@
+Class name: RemoveDirectoryClass
+Parent class: Command
+Subclasses: None
+
+Responsibilities:
+* Remove a directory from file system
+
+Collaborators:
+* JFileSystem
+* Directory
+* ValidationGate
+* Output
+* InvalidArgumentException
+* InvalidPathException

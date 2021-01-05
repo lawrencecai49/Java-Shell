@@ -1,0 +1,18 @@
+Class name: JShellSaving
+Parent class: None
+Subclasses: None
+
+Responsibilities:
+* Saves the current JShell session
+* Stores the current JShell session as a file in a real computer
+
+Collaborators:
+* InputProcessor
+* JFileSystem
+* InputStorage
+* FileHandler
+* Directory
+* File
+* DirectoryStack
+* InvalidArgumentException
+* RedirectionNotSupportException

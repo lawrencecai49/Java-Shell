@@ -1,0 +1,8 @@
+Class name: InvalidNameException
+Parent class: Exception
+Subclasses: None
+
+Responsibilities:
+* creates exception when file with invalid characters in name is being created
+
+Collaborators: None

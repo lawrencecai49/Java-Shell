@@ -1,0 +1,21 @@
+Class name: DirectoryStack
+Parent class: Command
+Subclasses: NA
+
+Responsibilities:
+* Stores the directory stack and executes the commands pushd and popd
+* popd: Pop the top entry from directory stack and makes it the current working directory
+* pushd: Push current working directory onto directory stack and then changes the current working 
+  directory to the given pathname (relative or absolute pathname)
+
+Collaborators:
+* Stack
+* ValidationGate
+* InvalidArgumentException
+* InvalidPathException
+* EmptyStackException
+* Output
+* Directory
+* JFileSystem
+* InputProcessor
+

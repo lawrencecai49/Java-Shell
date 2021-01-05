@@ -1,0 +1,22 @@
+Class name: JFileSystem
+Parent class: None
+Subclasses: None
+
+Responsibilities:
+* Creates and stores root directory
+* Stores the current working directory
+* Changes the current working directory
+* Locates files and directories in file system
+* Adds files and directories to file system
+* Determines if a given path refers to an existing file
+* Determines if a given path refers to an existing directory
+* Removes directory along with all subdirectories and files
+
+Collaborators:
+* FileSystemContent
+* InvalidPathException
+* InvalidNameException
+* ItemAlreadyExistsException
+* Directory
+* File
+* ValidationGate

@@ -1,0 +1,12 @@
+Class name: ManClass
+Parent class: Command
+Subclasses: None
+
+Responsibilities:
+* Output the documentation of given command(s)
+
+Collaborators:
+* InputProcessor
+* ValidationGate
+* OutputProcessor
+* InvalidArgumentException

@@ -1,0 +1,73 @@
+//A2B Sprint 1 Backlog.  
+November 16 to November 22
+
+User Stories from Product Backlog that we will address in this sprint:
+a) As a user, I want to be able to make one or more directories by using the command once in the shell
+b) As a user, I should be able to see the documentation for every command
+c) As a user, I should be able to move any files or directories to another location in the file system
+d) As a user, I should be able to remove any directory (and all of its contents) in the file system
+e) As a user, I want to be able to copy any files or directories to another location in the file system
+f) As a user, I should be able to output the contents of one or more files onto the console
+g) As a user, I want to be able to retrieve a file at a URL and add it to the current working directory
+h) As a user, I want to be able to save the entire state of the program into a file that will be stored in my
+computer's real file system so that I can reinitialize the last saved session and begin from where I left off
+i) As a user, I want to only be able to reinitialize my last saved session at the start when I start a new
+JShell session, otherwise this feature should be disabled later on
+j) As a user, I want to be able to provide type f (file) or d (directory), the name and one or more pathnames
+to search within for the file and or directory
+k) As a user, I should be able to display the entire file system as a tree
+l) As a user, I want the option to list all subdirectories at a given pathname(s)
+m) As a user, I should be able to redirect every command that produces an output to append or overwrite to an
+existing file or create a new file if the file name does not already exist
+n) As a user, I should be notified if an error occurs within the shell program
+o) As a user, I should have a console where I can write instructions to interact with the file system
+q) As a user, I should be able to store and access files and directories
+
+Specific tasks to be accomplished:
+* Update crcCards to match new design and include new commands
+a-1. (MakeDirectoryClass) Restructure the code to allow for multiple inputs as opposed to only two to create multiple directories
+b-1. (ManClass) Add in documentation for the new commands
+b-2. (ManClass) Adjust code to allow for man CMD to only take in one argument
+d-1. (FileSystemModifierClass) Write the base code to a remove an entire directory (including its contents) from the file system
+e-1. (FileSystemModifierClass) Write the base code to copy a file to another location (rename the file)
+e-2. (FileSystemModifierClass) Write the base code to copy a file into another directory 
+e-3. (FileSystemModifierClass) Write the base code to copy a directory to another location (rename the directory)
+e-4. (FileSystemModifierClass) Write the base code to copy a directory into another directory 
+c-1. (FileSystemModifierClass) Write the base code that uses code from d and e to move files and directories
+f-1. (ConcatenationClass) Restructure the code to modify cat to match the new additions
+g-1. (CurlClass) Implement the code structure that will locate the URL
+g-2. (CurlClass) Implement the code structure that will read and save the contents as a new file in the current working directory
+h-1. (SaveJShellClass) Write the code structure that will write the current data of JShell to the pathname provided
+i-1. (LoadJShellClass) Implement the code structure that will reinitialize the the history and directory stack
+i-2. (LoadJShellClass) Implement a method to reinitialize the entire file system  
+k-1. (TreeClass) Write the basic structure to iterate through the entire file system in the correct order
+k-2. (TreeClass) Implement a process that will format the output to display the tree correctly
+l-1. (ListClass) Add a new method that will recursively access the file system and print all subdirectories 
+j-1. (SearchClass) Implement a process that will analyze the information given from the command line
+j-2. (SearchClass) Implement a dynamic data structure that will save the directories that have the searched item
+j-3. (SearchClass) Implement a process that will iterate through the directories and compare the name to the given string
+m-1. (RedirectionClass) Update the code to allow for redirections of all commands that have outputs
+m-2. (All 2A command class) Update command classes to support redirection
+m-3. (All 2A command class) Make changes to have runCommand return an object as opposed to it being void
+n-1. (New Exception Classes) Create new exception classes for new commands if needed
+o-1. (CommandExecutor) Updated the class to allow for the newly added commands to be called
+o-2. (CommandClass) Update the class to add new exceptions and redesign to make runCommand return an object
+o-3. (OutputProcessor, JShell) Make changes to accommodate for the new design changes made towards CommandClass, CommandExecutor and the file system
+o-4. (ValidationGate) Make the object non-static and make other changes to accommodate for new design
+q-1. (FileSystem, FileSystemContent, File, Directory) Brainstorm new ideas to change the current file system to incorporate Generics
+q-2. (FileSystem, FileSystemContent, File, Directory) Implement the new ideas to change the current file system
+
+These tasks are assigned as follows:
+
+User: Yuanyuan Li
+Tasks: *, m-2, b-1, b-2, h-1, i-1, i-2, n-1, o-3, m-3
+
+User: Luoliang Cai
+Tasks: *, m-2, a-1, n-1, q-1, q-2, m-3
+
+User: Man Hei Ho
+Tasks: *, m-2, d-1, e-1, e-2, e-3, e-4, c-1, g-1, g-2, m-1, o-1, o-2, o-3, m-3
+
+User: Christina Ma
+Tasks: *, m-2, f-1, j-1, j-2, j-3, l-1, k-1, k-2, n-1, o-4, m-3
+

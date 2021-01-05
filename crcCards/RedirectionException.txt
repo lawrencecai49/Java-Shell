@@ -1,0 +1,8 @@
+Class name: RedirectionException
+Parent class: Exception
+Subclasses: None
+
+Responsibilities:
+* To notify when an error occur during redirection process
+
+Collaborators: None

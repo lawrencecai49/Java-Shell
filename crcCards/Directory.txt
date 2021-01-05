@@ -1,0 +1,14 @@
+Class name: Directory
+Parent class: FileSystemContent
+Subclasses: None
+
+Responsibilities:
+* Stores files in the directory
+* Stores subdirectories of the directory
+* Adds file and subdirectories in directory
+* Retrieve files and subdirectories in directory
+* Checks if a directory is a subdirectory of the directory
+* Removes all subdirectories and files
+
+Collaborators:
+* ItemAlreadyExistsException

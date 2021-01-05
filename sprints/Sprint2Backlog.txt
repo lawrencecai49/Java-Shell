@@ -1,0 +1,67 @@
+//Sprint 2 Backlog.  
+October 28 to November 3rd
+
+User Stories from Product Backlog that we will address in this sprint:
+a) As a user, I should have a shell where I can input instructions to interact with the file system 
+d) As a user, I should be able to terminate the shell program
+f) As a user, I should be able to make two new directories in the locations that I provided. If creating the first directory is not successful then the process should stop and that I should be notified of this error. If creating the second directory is not successful then I should be notified specifically for the second directory.  
+g) As a user, I should be able to view all or a specified number of my most recent inputs. It should be listed such that the largest number is the most recent input                              		    
+h) As a user, I should be able to change the current working directory to the one I provided
+i) As a user, I should be able to view the documentation for a given command or for multiple commands
+j) As a user, I should be able to see the contents (files and directories) in a location that I provided
+k) As a user, I should be able to see the contents (files and directories) in the current working directory
+l) As a user, I should be able to see full pathname of the current working directory 
+n) As a user, I should be able to overwrite the contents of an existing file with text
+o) As a user, I should be able to append text to the end of an existing file
+p) As a user, I should be able to create a new file with text written into it
+q) As a user, I should be able to display text onto the shell
+r) As a user, I should be able to display the contents of one or more files onto the shell 
+v) As a user, I should be able to print the name of the file on shell 
+w) As a user, I should be able to print the directory name and its content on shell
+s) As a user, I should be notified if my input (command and argument) is invalid 
+
+Specific tasks to be accomplished:
+*finalize design and update crcCards
+a-1. (Command) Create a class that will be the parent of all command classes
+a-2. (CommandExecutor) update CommandExecutor to reflect the new design outlined in crcCards
+d-1. (JShell) Test the basic structure of JShell and add exit property 
+f-1. (MakeDirectoryClass) Begin coding class that can adds a directory into the file system
+f-2. (MakeDirectoryClass) Check if a directory has been successfully created in the file system
+f-3. (MakeDirectoryClass) Check if the directory has a legal name
+f-4. (MakeDirectoryClass) Check if a directory with same path already exists
+g-1. (InputStorage) Write code for a class that stores all user input history
+g-2. (InputStorage) Write code to add a user input to history
+g-3. (HistoryClass) Write code to list and print all of user input history
+g-4. (HistoryClass) Write code to list and print a specified number of user input history
+h-1. (ChangeDirectoryClass) Begin coding class that can change the current working directory in the File System
+i-1. (ManClass) Save all the documentation for each command
+i-2. (ManClass) Begin coding methods that will print the documentation for one command
+i-3. (ManClass) Begin coding methods that will print the documentations for a list of commands
+j-1. (ListClass) Write the base code for a ListClass; ie: identify the given pathname if one is given
+k-1. (ListClass) Write code for ListClass to display the names of the files and directories in the current directory if no pathname is given
+v-1. (ListClass) Write code for ListClass to display the name of the file if the given pathname refers to an existing file
+w-1. (ListClass) Write code for ListClass to display the name of the directory and the names of files and directories inside of this directory if the given pathname refers to an existing directory
+l-1. (PrintWorkingDirectory) Begin coding class that prints the absolute path of the current working directory
+n-1. (EchoClass) Begin coding class that receives a string and redirection information and pass it for redirection 
+n-2. (OutputRedirection) write code for OutputRedirection to overwrite text to the specified file
+o-1. (OutputRedirection) begin coding class that receives a string and append the string to the specified file
+p-1. (OutputRedirection) write code for OutputRedirection to create a new file if the given file does not already exist 
+q-1. (Output) begin coding for a class that receive a message and format that message for output
+q-2. (OutputProcessor) begin coding class that receive a message and format and display the message on shell
+r-1. (ConcatenationClass) Implement a method that will find and save the file(s) that exist within in the file system
+r-2. (ConcatenationClass) Implement code that will loop through all existing files given and will print all content of each file
+s-1. (ErrorHandler) Implement methods that print specific messages to notify the user for the reason their input is invalid 
+
+These tasks are assigned as follows:
+
+User: Yuanyuan Li
+Tasks: * i-1, i-2, i-3, d-1
+
+User: Luoliang Cai
+Tasks: * f-1, f-2, f-3, f-4, h-1, l-1, s-1
+
+User: Man Hei Ho
+Tasks: * n-1, n-2, o-1, p-1, q-1, q-2, g-1, g-2, g-3, g-4, a-1, a-2
+
+User: Christina Ma
+Tasks: * r-1, r-2, j-1, k-1, v-1, w-1

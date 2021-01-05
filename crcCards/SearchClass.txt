@@ -1,0 +1,22 @@
+Class name: SearchClass
+Parent class: Command
+Subclasses: None
+
+Responsibilities:
+* Validates if all the required search arguments have been provided 
+  (i.e. -type, f or d, -name, name of searched item, pathname(s)).
+* Output the list of full pathnames of all the sub-directories from all the provided pathname(s) 
+  that contain the file or directory name that is being searched for.
+
+Collaborators:
+* ValidationGate
+* Output
+* InvalidArgumentException
+* InvalidPathException
+* JFileSystem
+* Iterator
+* FileSystemContent
+* ArrayList
+* InputProcessor
+* Directory
+* File

@@ -1,0 +1,22 @@
+User Stories												    	Estimate Time (hr)
+b) As a user, I want to be able to make one or more directories by using the command once in the shell		1
+b) As a user, I should be able to see the documentation for every command					1
+c) As a user, I should be able to move any files or directories to another location in the file system		3
+d) As a user, I should be able to remove any directory (and all of its contents) in the file system		3
+e) As a user, I want to be able to copy any files or directories to another location in the file system		3
+f) As a user, I should be able to output the contents of one or more files onto the shell			1
+g) As a user, I want to be able to retrieve a file at a URL and add it to the current working directory		2
+h) As a user, I want to be able to save the entire state of the program into a file that will be stored in my	3 
+computer's real file system so that I can reinitialize the last saved session and begin from where I left off
+i) As a user, I want to only be able to reinitialize my last saved session at the start when I start a new 	3
+JShell session, otherwise this feature should be disabled later on
+j) As a user, I want to be able to provide type f (file) or d (directory), the name and one or more pathnames 	3
+to search within for the file and or directory
+k) As a user, I should be able to display the entire file system as a tree					3
+l) As a user, I want the option to list all subdirectories at a given pathname(s)				3
+m) As a user, I should be able to redirect every command that produces an output to append or overwrite to an 	2
+existing file or create a new file if the file name does not already exist
+n) As a user, I should be notified if an error occurs within the shell program					2
+o) As a user, I should have a console where I can write instructions to interact with the file system		1
+p) As a user, I expect the shell program to not crash or terminate if an error occurs				4
+q) As a user, I should be able to store and access files and directories					8

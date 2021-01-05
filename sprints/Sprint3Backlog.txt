@@ -1,0 +1,33 @@
+//Sprint 3 Backlog.  
+November 4th to November 10th
+
+User Stories from Product Backlog that we will address in this sprint:
+a) As a user, I should have a shell where I can input instructions to interact with the file system
+n) As a user, I should be able to overwrite the contents of an existing file with text                     
+o) As a user, I should be able to append text to the end of an existing file                              
+p) As a user, I should be able to create a new file with text written into it
+q) As a user, I should be able to display text onto the shell
+t) As a user, I should be notified if an error occurs within the command or the shell program
+
+Specific tasks to be accomplished:
+a-1. (All source files/classes) Check and debug all source files
+n-1. (EchoClass) Write the base code that will overwrite to an existing file
+o-1. (EchoClass) Write the base code that will append to an existing file
+p-1. (EchoClass) Write the base code that will create a new file and append text to it
+q-1. (EchoClass) Write the base code that will output message to shell
+t-1. (ErrorHandler) Implement code that will handle all exceptions
+t-2. (ErrorHandler) Implement code that will print a message to notify the user of the error
+
+These tasks are assigned as follows:
+
+User: Yuanyuan Li
+Tasks: a-1, t-1, t-2, n-1, o-1, p-1, q-1
+
+User: Luoliang Cai
+Tasks: a-1, t-1, t-2
+
+User: Man Hei Ho
+Tasks: a-1, t-1, t-2
+
+User: Christina Ma
+Tasks: a-1, t-1, t-2

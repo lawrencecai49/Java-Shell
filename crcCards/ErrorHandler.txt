@@ -1,0 +1,8 @@
+Class name: ErrorHandler
+Parent class: None
+Subclasses: None
+
+Responsibilities:
+* Output error message
+
+Collaborators: None

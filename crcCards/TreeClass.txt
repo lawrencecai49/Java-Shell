@@ -1,0 +1,14 @@
+Class name: TreeClass
+Parent class: Command
+Subclasses: None
+
+Responsibilities:
+* Output the complete mapping of the entire file system, beginning at the root, in the format of a 
+  tree structure
+
+Collaborators:
+* Output
+* InvalidArgumentException
+* JFileSystem
+* Iterator
+* InputProcessor

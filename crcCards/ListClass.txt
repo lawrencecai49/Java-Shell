@@ -1,0 +1,24 @@
+Class name: ListClass
+Parent class: Command
+Subclasses: None
+
+Responsibilities:
+* Output the contents (names of all files or directories) of the current working directory if no 
+  pathname is provided
+* Output the contents (names of all files and directories) in the pathname(s) provided (absolute or 
+  relative) if the pathname is a directory
+* Output the given path of the file if the pathname provided (absolute or relative) is a file
+* Recursively output the list of all sub-directories of the pathname(s) provided if the argument 
+  [-R] is given
+
+Collaborators:
+* ValidationGate
+* InvalidArgumentException
+* InvalidPathException
+* Output
+* JFileSystem
+* Queue
+* Iterator
+* FileSystemContent
+* Directory
+* InputProcessor

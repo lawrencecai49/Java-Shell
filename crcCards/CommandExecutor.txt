@@ -1,0 +1,17 @@
+Class name: CommandExecutor
+Parent class: None
+Subclasses: None
+
+Responsibilities:
+* Receives user input and execute the corresponding command
+* Get output from command classes and send them for further processing
+
+Collaborators:
+* Command
+* InputProcessor
+* Output
+* OutputProcessor
+* ErrorHandler
+* ValidationGate
+* InvalidCommandException
+* InvalidArgumentException

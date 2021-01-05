@@ -1,0 +1,19 @@
+Class name: JShellLoading
+Parent class: None
+Subclasses: None
+
+Responsibilities:
+* Loads the previous saving JShell program back to the current JShell program
+
+Collaborators:
+* JFileSystem
+* InputStorage
+* FileHandler
+* InputProcessor
+* DirectoryStack
+* InvalidArgumentException
+* RedirectionNotSupportException
+* ItemAlreadyExistsException
+* InvalidCommandException
+* InvalidPathException
+* InvalidNameException

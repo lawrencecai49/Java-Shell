@@ -1,0 +1,8 @@
+Class name: InputStorage
+Parent class: None
+Subclasses: None
+
+Responsibilities:
+* Store all user input history
+
+Collaborators: None

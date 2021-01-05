@@ -1,0 +1,8 @@
+Class name: ItemAlreadyExistsException
+Parent class: Exception
+Subclasses: None
+
+Responsibilities:
+* outputs error message if file with a name already exists in a given directory
+
+Collaborators: None

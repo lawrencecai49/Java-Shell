@@ -1,0 +1,59 @@
+//A2B Sprint 2 Backlog.  
+November 23 to November 30
+
+User Stories from Product Backlog that we will address in this sprint:
+p) As a user, I expect the shell program to not crash or terminate if an error occurs
+g) As a user, I want to be able to retrieve a file at a URL and add it to the current working directory
+o) As a user, I should have a console where I can write instructions to interact with the file system
+q) As a user, I should be able to store and access files and directories
+
+Specific tasks to be accomplished:
+* Update crcCards if there is any new changes
+g-1. (CurlClass) Implement the code structure that will locate the URL
+g-2. (CurlClass) Implement the code structure that will read and save the contents as a new file in the current working directory
+p-1. (ChangeDirectoryClassTest) Write Junit test cases (some cases: invalid directory, no arguments, valid directory, path refers to a file)
+p-2. (ConcatenationClassTest) Write Junit test class (some cases: one file, multiple files, a non existent file, a directory)
+p-3. (CopyClassTest) Write Junit test class (some cases: less than 2 arguments, 2 arguments and more than 2 arguments; 2 arguments: copy non-existing path, copy existing file/dir to existing/non-existing file/dir)
+p-4. (DirectoryStackTest) Write Junit test class (some popd cases: no argument, more than one argument; some pushd cases: no argument, nonexistent directory, path refers to a file, path refers to a directory)
+p-5. (EchoClassTest) Write Junit test class (some cases: no argument, more than one arguments, invalid String, valid String)
+p-6. (HistoryClassTest) Write Junit test class (some cases: no argument, one argument - not a number, a number less than, equal to or more than 0, more than one argument)
+p-7. (ListClassTest) Write Junit test class (some cases: no argument, path refers to a file, only -R, multiple files)
+p-8. (MakeDirectoryClassTest) Write Junit test class (some cases: invalid directory name, make one directory, make more than one directory, create an already existing directory)
+p-9. (ManClassTest) Write Junit test class (Some cases: no argument, more than one argument, one argument with a valid command, one argument with a invalid command)
+p-10. (MoveClassTest) Write Junit test class (some cases: less than 2 arguments, 2 arguments and more than 2 arguments; 2 arguments: move non-existing path, move existing file/dir to existing/non-existing file/dir)
+p-11. (PrintWorkingDirectoryTest) Write Junit test class (some cases: no arguments, more than one argument)
+p-12. (RemoveDirectoryClassTest) Write Junit test class (some cases: less than 1 argument, 1 argument, more than 1 argument; 1 argument: non-existing path, file path, directory path - parent of current working directory)
+p-13. (FileSystemTest) Write Junit test class (some cases: get current directory, get root, find a non existing and existing directory, find a non existing and existing file)
+p-14. (FileSystemContentTest) Write Junit test class (some cases: get parent, get name, get path)
+p-15. (SearchClassTest) Write Junit test class (some cases: insufficient arguments, no arguments, search for a file, search for a directory)
+p-16. (TreeClassTest) Write Junit test class (some cases: no arguments, more than one arguments)
+p-17. (DirectoryTest) Write Junit test class (some cases: remove an item, add an item, check if has an item)
+p-18. (FileTest) Write Junit test class (some cases: overwrite text, append text, get saved text, delete all the text)
+p-19. (ValidationGateTest) Write Junit test class (some cases: valid pathname, invalid pathname, valid string, invalid string, valid commands, invalid command)
+p-20. (InputProcessorTest) Write Junit test class (some cases: empty input command,command with no argument, command with no redirection operator, command with redirection operator but no redirection path, command with redirection operator and path, command with several arguments no redirection, command with several arguments and redirection)
+p-21. (InputStorageTest) Write Junit test class (test if it stores given input and returns all stored input)
+p-22. (CurlClassTest) Write Junit test class (some cases: invalid URL, valid URL)
+p-23. (RedirectionProcessorTest) Write Junit test class (if it correctly overwrite, append and create new file)
+p-24. (General Test Classes) Write and test for classes that require a Test class that has not been covered in the the tasks or added later in the sprint 
+o-1. (All source files/classes) Check and debug all source files
+o-2. (All command classes) Update code to support redirection
+q-1. (FileSystem, FileSystemContent, FIle, Directory) Make changes to revert some parts back to the previous path handling design
+q-2. (FileSystem, FileSystemContent, FIle, Directory) Debug the path handling to ensure the new commands work
+
+These tasks are assigned as follows:
+
+User: Yuanyuan Li
+Tasks: *, g-1, g-2, p-5, p-9, p-20, p-22, p-24, o-2, p-24, o-1, o-2
+
+User: Luoliang Cai
+Tasks: *, p-1, p-8, p-11, p-13, p-14, p-17, p-18,  o-2, q-1, q-2, p-24, o-1, o-2
+
+User: Man Hei Ho
+Tasks: *, o-1, o-2, p-3, p-6, p-10, p-12, p-21, p-23, p-24
+
+User: Christina Ma
+Tasks: *, o-2, p-24, p-2, p-4, p-7, p-15, p-16, p-19, p-24, o-1
+
+
+
+

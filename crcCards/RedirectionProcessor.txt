@@ -1,0 +1,13 @@
+Class name: RedirectionProcessor
+Parent class: None
+Subclasses: None
+
+Responsibilities:
+* Overwrite or append to an existing file or create a new file if file does not exist
+* Supports redirection for ListClass, PrintWorkingDirectoryClass, ConcatenationClass, HistoryClass, EchoClass, ManClass, TreeClass, and SearchClass
+
+Collaborators:
+* InputProcessor
+* JFileSystem
+* ValidationGate
+* RedirectionException

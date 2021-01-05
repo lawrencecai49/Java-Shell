@@ -1,0 +1,17 @@
+Class name: CurlClass
+Parent class: None
+Subclasses: None
+
+Responsibilities:
+* Finds the content corresponding to the URL provided
+* Creates a file and save the content in the FileSystem
+
+Collaborators:
+* JFileSystem
+* InputProcessor
+* InvalidArgumentException
+* OutputProcessor
+* InvalidNameException
+* ItemAlreadyExistsException
+* InvalidPathException
+

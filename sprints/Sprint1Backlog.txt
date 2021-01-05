@@ -1,0 +1,47 @@
+//Sprint 1 Backlog.  
+October 21 to October 27
+
+User Stories from Product Backlog that we will address in this sprint:
+a) As a user, I should have a shell where I can input instructions to interact with the file system  
+b) As a user, I should be continually prompted for input by the shell
+c) As a user, my input should be interpreted correctly regardless of any whitespaces
+d) As a user, I should be able to terminate the shell program
+e) As a user, I should be able to store and navigate through files and directories
+g) As a user, I should be able to view all or a specified number of my most recent inputs. It should be
+listed such that the largest number is the most recent inputl) As a user, I should be able to see full pathname of the current working directory
+m) As a user, I should be able to save and track my pathway movements as I change the current working directory so that I can move back to my previous locations 
+
+
+Specific tasks to be accomplished:
+* review and finalize crcCards
+a-1. (JShell) Implement the basic structure of the command line interpreter
+a-2. (CommandExecutor) write the base code for CommandExecutor class that call the correct class if the user input is valid
+b-1. (JShell) Make the shell continuously prompt for a user input
+c-1. (ValidationGate) Validate the command keyword
+c-2. (ValidationGate) Validate the pathname
+c-3. (InputProcessor) Parse the user input
+d-1. (JShell) Implement a method for the user to terminate the shell 
+e-1. (Directory) Write the base code for the Directory class
+e-2. (File) Write the base code for the File class
+e-3. (FileSystem) Write the base code that will allow for user to navigate the file system
+g-1. (HistoryClass) Implement a method to save all of the user’s inputs 
+g-2. (HistoryClass) Implement methods to display and list the user’s inputs (specified number or all) that’s been saved
+m-1. (DirectoryStack) Write the basic structure to create a directory stack
+m-2. (PushDirectoryClass) Implement a method for user to push the current directory onto a stack 
+m-3. (PushDirectoryClass) Changes current directory to the one user provided
+m-4. (PopDirectoryClass) Implement a method for user to pop out the directory from a stack and change current directory to that
+
+These tasks are assigned as follows:
+
+User: Yuanyuan Li
+Tasks: * a-1, b-1, c-1, d-1, c-3
+
+User: Luoliang Cai
+Tasks: * e-1, e-2, e-3
+
+User: Man Hei Ho
+Tasks: * g-1, g-2, a-2
+
+User: Christina Ma
+Tasks: * m-1, m-2, m-3, m-4, c-2
+

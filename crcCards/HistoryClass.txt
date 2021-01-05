@@ -1,0 +1,15 @@
+Class name: HistoryClass
+Parent class: Command
+Subclasses: None
+
+Responsibilities:
+* Output all user inputs if no number is specified or if the specified number is larger than the number of records
+* Otherwise output a specified number of most recent user input
+* List the output with highest number being the most recent user input
+
+Collaborators:
+* InputStorage
+* InputProcessor
+* ValidationGate
+* Output
+* InvalidArgumentException

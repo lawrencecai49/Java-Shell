@@ -1,0 +1,10 @@
+Class name: File
+Parent class: FileSystemContent
+Subclasses: None
+
+Responsibilities:
+* Stores contents within a file
+* Overwrites the contents of a file with new content
+* Appends text to end of file
+
+Collaborators: None

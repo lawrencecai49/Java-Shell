@@ -1,0 +1,8 @@
+Class name: MoveClass
+Parent class: CopyClass
+Subclasses: None
+
+Responsibilities:
+* Move a file/directory to a specified location by first copy the file/directory to that location then delete that file/directory
+
+Collaborators: None

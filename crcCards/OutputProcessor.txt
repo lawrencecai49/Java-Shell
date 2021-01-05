@@ -1,0 +1,10 @@
+Class name: OutputProcessor
+Parent class: None
+Subclasses: None
+
+Responsibilities:
+* receive output messages and output to shell or redirect to appropriate location
+
+Collaborators:
+* InputProcessor
+* RedirectionProcessor

@@ -1,0 +1,13 @@
+Class name: FileSystemContent
+Parent class: None
+Subclasses: File, Directory
+
+Responsibilities:
+* Stores name of item in the file system
+* Stores absolute pathname of item in the file system
+* Retrieves name of an item in the file system
+* Retrieves the absolute path of an item in the file system
+* Stores the parent directory
+* Sets the parent directory
+
+Collaborators: None

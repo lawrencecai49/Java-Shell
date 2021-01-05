@@ -1,0 +1,9 @@
+Class name: FileHandler
+Parent class: None
+Subclasses: None
+
+Responsibilities:
+* Creates an file in a real computer
+* Check whether the file exists in a real computer
+
+Collaborators: None

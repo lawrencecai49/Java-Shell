@@ -1,0 +1,9 @@
+Class name: ValidationGate
+Parent class: None
+Subclasses: None
+
+Responsibilities:
+* Receives the parsed inputs and check if the command, pathname, string, string of a number, and 
+directory or file name are valid and follow the restrictions
+
+Collaborators: None

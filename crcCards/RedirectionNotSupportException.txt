@@ -1,0 +1,8 @@
+Class name: RedirectionNotSupportException
+Parent class: Exception
+Subclasses: None
+
+Responsibilities:
+* To notify when when user enters an command that does not support redirection
+
+Collaborators: None

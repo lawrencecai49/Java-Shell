@@ -1,0 +1,15 @@
+Class name: MakeDirectoryClass
+Parent class: Command
+Subclasses: None
+
+Responsibilities:
+* Takes a list of paths and creates one or more directories one by one and adds it to the system 
+  until all directories are made or an error occurs when adding/ creating one of the directories 
+
+Collaborators:
+* JFileSystem
+* InputProcessor
+* InvalidArgumentException
+* InvalidPathException
+* InvalidNameException
+* ItemAlreadyExistsException

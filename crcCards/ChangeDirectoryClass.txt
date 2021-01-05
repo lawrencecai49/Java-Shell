@@ -1,0 +1,12 @@
+Class name: ChangeDirectoryClass
+Parent class: Command
+Subclasses: None
+
+Responsibilities:
+* Changes the current working directory to the directory specified at the path 
+
+Collaborators:
+* JFileSystem
+* InputProcessor
+* InvalidArgumentException
+* InvalidPathException

@@ -1,0 +1,13 @@
+Class name: EchoClass
+Parent class: Command
+Subclasses: None
+
+Responsibilities:
+* Overwrite given string to given file provided and if the file does not exist a new file is created
+* Append given string to given file provided and if the file does not exist a new file is created
+
+Collaborators:
+* OutputProcessor
+* ValidationGate
+* InputProcessor
+* InvalidArgumentException

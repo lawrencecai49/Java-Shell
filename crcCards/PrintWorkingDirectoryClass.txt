@@ -1,0 +1,11 @@
+Class name: PrintWorkingDirectoryClass
+Parent class: Command
+Subclasses: None
+
+Responsibilities:
+* Output the full path of the current working directory
+
+Collaborators: 
+* JFileSystem
+* InputProcessor
+* InvalidArgumentException

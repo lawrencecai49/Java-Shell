@@ -1,0 +1,12 @@
+Class name: InputProcessor
+Parent class: None
+Subclasses: None
+
+Responsibilities:
+* Receive and parse user input
+* Parse command
+* Parse argument
+* Parse redirection symbol ('>' or '>>')
+* Parse pathname to be redirected into
+
+Collaborators: None

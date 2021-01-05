@@ -1,0 +1,30 @@
+User Stories												    Estimate Time (hr)
+a) As a user, I should have a shell where I can input instructions to interact with the file system         2
+b) As a user, I should be continually prompted for input by the shell                                       3
+c) As a user, my input should be interpreted correctly regardless of any whitespaces		            3
+d) As a user, I should be able to terminate the shell program		                                    1
+e) As a user, I should be able to store and navigate through files and directories			    3
+f) As a user, I should be able to make two new directories in the locations that I provided. If creating    5
+the first directory is not successful then the process should stop and that I should be notified of this
+error. If creating the second directory is not successful then I should be notified specifically for second
+directory.  
+g) As a user, I should be able to view all or a specified number of my most recent inputs. It should be     4
+listed such that the largest number is the most recent input                              		    
+h) As a user, I should be able to change the current working directory to the one I provided 		    2
+i) As a user, I should be able to view the documentation for a given command or for multiple commands 	    3
+j) As a user, I should be able to see the contents (files and directories) in a location that I provided    4
+k) As a user, I should be able to see the contents (files and directories) in the current working directory 4
+l) As a user, I should be able to see full pathname of the current working directory                        1
+m) As a user, I should be able to save and track my pathway movements as I change the current working       4
+directory so that I can move back to my previous locations
+n) As a user, I should be able to overwrite the contents of an existing file with text                      3
+o) As a user, I should be able to append text to the end of an existing file                                3
+p) As a user, I should be able to create a new file with text written into it                               3
+q) As a user, I should be able to display text onto the shell		                            	    4
+r) As a user, I should be able to display the contents of one or more files onto the shell                  4
+s) As a user, I should be notified if my input (command and argument) is invalid                            3
+t) As a user, I should be notified if an error occurs within the command or the shell program               4
+u) As a user, I should continue to have a working shell program regardless of any error                     4
+v) As a user, I should be able to print the name of the file on shell                                       3
+w) As a user, I should be able to print the directory name and its cotent on shell                          4
+

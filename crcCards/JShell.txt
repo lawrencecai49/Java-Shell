@@ -1,0 +1,23 @@
+Class name: JShell
+Parent class: None
+Subclasses: None
+
+Responsibilities:
+* Run shell
+* Initialize shell program data
+* Prompt user for input continuously
+* Send user input to CommandExecutor 
+* Terminate shell
+
+Collaborators:
+* InputProcessor
+* CommandExecuter
+* InputStorage
+* JFileSystem
+* ErrorHandler
+* RedirectionProcessor
+* OutputProcessor
+* ValidationGate
+* DirectoryStack
+* JShellSaving
+* JShellLoading

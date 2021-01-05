@@ -1,0 +1,8 @@
+Class name: Command
+Parent class: None
+Subclasses: MakeDirectoryClass, ChangeDirectoryClass, ListClass, PrintWorkingDirectoryClass, DirectoryStack, ConcatenationClass, HistoryClass, EchoClass, ManClass, RemoveDirectoryClass, CopyClass, TreeClass, SearchClass, CurlClass
+
+Responsibilities:
+* execute command
+
+Collaborators: None

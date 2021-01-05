@@ -1,0 +1,9 @@
+Class name: InvalidArgumentException
+Parent class: Exception
+Subclasses: None
+
+Responsibilities:
+* Creates exception when user enter argument(s) that is not valid or match what is expected.
+  Argument(s) are strings the user has input after the command.
+
+Collaborators: None

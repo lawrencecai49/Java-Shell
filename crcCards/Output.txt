@@ -1,0 +1,9 @@
+Class name: Output
+Parent class: None
+Subclasses: None
+
+Responsibilities:
+* stores output from a command class
+* output includes the output message to be displayed to the user and any exceptions caught during the execution of the command
+
+Collaborators: None
